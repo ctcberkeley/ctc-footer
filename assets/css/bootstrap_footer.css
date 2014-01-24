@@ -1,0 +1,32 @@
+/*
+ * Bootstrap Footer
+ *
+ * Footer for sites that use the Bootstrap framework
+ */
+
+.footer {
+  padding: 25px 0;
+  margin-top: 40px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+.info {
+  /* Insert any styles for the nonprofit's information here */
+}
+.ctc-info {
+  padding-top: 10px;
+}
+.info,
+.ctc-info {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .info {
+    text-align: left;
+  }
+  .ctc-info {
+    padding-top: 0;
+    text-align: right;
+  }
+}
