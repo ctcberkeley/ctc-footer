@@ -1,7 +1,7 @@
 /*
- * Bootstrap Footer
+ * Footer
  *
- * Footer for projects that use the Bootstrap framework
+ * Standard footer for projects
  */
 
 .footer {
@@ -9,6 +9,10 @@
   margin-top: 40px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+.col {
+  position: relative;
+  min-height: 1px;
 }
 .info {
   /* Insert any styles for the nonprofit's information here */
@@ -18,6 +22,8 @@
 }
 .info,
 .ctc-info {
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
 }
 .ctc-text,
@@ -31,6 +37,10 @@
 }
 
 @media (min-width: 768px) {
+  .col {
+    float: left;
+    width: 50%;
+  }
   .info {
     text-align: left;
   }
