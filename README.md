@@ -11,4 +11,4 @@ This is a footer that can be used with any website that utilizes the Bootstrap f
 
 ## Usage
 
-These footers contain two sections. The section on the right is for any information about the nonprofit that should be placed in the footer, you should fill in this section and style it yourself. The section on the left is for the Code the Change attribution. Also, note that both footers are responsive. If your website is not responsive, or responds in a different manner, then you will need to adopt the CSS to match the style of your website.
+These footers contain two sections. The section on the left is for any information about the nonprofit that should be placed in the footer, you should fill in this section and style it yourself. The section on the right is for the Code the Change attribution. Also, note that both footers are responsive. If your website is not responsive, or responds in a different manner, then you will need to alter the CSS to match the style of your website.
